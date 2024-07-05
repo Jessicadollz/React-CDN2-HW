@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+#root{
+    width: 55%;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #333;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1rem;
+}
+
+a {
+    color: indigo;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
